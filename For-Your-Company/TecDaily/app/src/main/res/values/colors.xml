@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e91e63</color>
+    <color name="colorPrimaryDark">#880E4F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorAccentFaded">#abff4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="yellow">#c4ff00</color>
+    <color name="faded_white">#cae4e3e3</color>
+    <color name="secondary_text_material_dark">#b3000000</color>
+</resources>

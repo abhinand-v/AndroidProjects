@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "713374010392",
+    "project_id": "tec-daily"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713374010392:android:d038072f52bfd09f",
+        "android_client_info": {
+          "package_name": "lgztec.tecdaily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713374010392-ppm0imicf4rbvd1rfgjiliacc3evbr4d.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "713374010392-1k6vho2j3p6q5oviap72fjgpqmpu2p0a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lgztec.tecdaily",
+            "certificate_hash": "924e526449ef9f0f36b7f18644a40778d359d1cd"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgZJ-rdlsKqZPX1uxxrjluCkrxLDCeEQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

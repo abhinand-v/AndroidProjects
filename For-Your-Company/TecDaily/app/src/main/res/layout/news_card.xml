@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imv_newscard"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/imv_cards"
+        android:cropToPadding="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/no_image" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccentFaded"
+        android:elevation="10dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/tv_newsCardTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_newsCardTag"
+            android:layout_alignBottom="@+id/tv_newsCardTag"
+            android:layout_alignParentStart="true"
+            android:ems="9"
+            android:fontFamily="sans-serif-condensed"
+            android:maxLines="2"
+            android:minLines="2"
+            android:text="@string/demo_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_newsCardTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:textSize="14sp"
+            tools:ignore="RelativeOverlap"
+            tools:text="@string/demo_tag" />
+
+        <TextView
+            android:id="@+id/tv_newsCardTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tv_newsCardTag"
+            android:text="@string/demo_time"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <WebView
+            android:id="@+id/WebView_newsCard"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+        </WebView>
+
+        <RelativeLayout
+            android:id="@+id/RL_newsCard_webStat"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_weight="50"
+            android:background="@color/white">
+
+            <ProgressBar
+                android:id="@+id/progress_newsCard_webLoadStat"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="false"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="false" />
+
+            <Button
+                android:id="@+id/btn_newsCard_webLoadStat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/progress_newsCard_webLoadStat"
+                android:layout_centerHorizontal="false"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:text="LOADING . . . ."
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <ImageView
+                android:id="@+id/imbtn_fav_newsCard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@null"
+                android:baselineAlignBottom="false"
+                android:contentDescription="@string/fav_button"
+                android:padding="10dp"
+                android:tint="@color/colorAccent" />
+
+            <ImageButton
+                android:id="@+id/imbtn_newsCard_close"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@null"
+                android:contentDescription="@string/close_button"
+                android:padding="10dp"
+                android:tint="@android:color/black"
+                app:srcCompat="@drawable/ic_close" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

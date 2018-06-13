@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorAccentFaded</item>
+        <item name="android:statusBarColor">@color/colorAccentFaded</item>
+    </style>
+
+    <style name="RaisedButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="BottomNavigation">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="itemBackground">@drawable/custom_btnv</item>
+        <item name="itemIconTint">@android:color/white</item>
+        <item name="itemTextColor">@android:color/white</item>
+        <item name="paddingStart">5dp</item>
+        <item name="paddingEnd">5dp</item>
+    </style>
+
+    <style name="LoginAppTheme" parent="AppTheme" >
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorForeground">@color/white</item>
+        <item name="android:textColorPrimaryInverse">
+            @color/common_google_signin_btn_text_dark_focused
+        </item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_material_dark</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+</resources>

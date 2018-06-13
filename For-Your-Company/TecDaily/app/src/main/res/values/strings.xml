@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TecDaily</string>
+
+
+    <!--buttons-->
+    <string name="guest_btn" translatable="false">Be our guest</string>
+
+    <!--textview-->
+    <string name="demo_title">This is a Title</string>
+    <string name="demo_tag">TAG</string>
+    <string name="demo_time">A minute ago</string>
+
+    <!--bottom navigation-->
+    <string name="btnv_home">Home</string>
+    <string name="btnv_options">Options</string>
+    <string name="btnv_favorites">Favorites</string>
+
+    <!--actionbar-->
+    <string name="actionbar_search">sarch</string>
+    
+    <!--preferences-->
+    <string name="my_preferance">lgztec.tecdaily.MyPref</string>
+    <string name="pref_key_database_update">lgztec.tecdaily.dbsyncstate</string>
+
+    <!--snakbar-->
+    <string name="snakbar_login_error_data_con">Oops! Data Connection failed</string>
+
+    <!--searchview-->
+    <string name="hint_news_search">Search news</string>
+    <string name="hint_favorite_search">Search favorites</string>
+
+    <!--contentdiscription-->
+    <string name="imv_cards">News Image</string>
+    <string name="close_button">close buttton</string>
+    <string name="fav_button">favorite button</string>
+
+</resources>
