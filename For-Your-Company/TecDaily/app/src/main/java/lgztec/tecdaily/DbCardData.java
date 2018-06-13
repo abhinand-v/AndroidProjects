@@ -4,7 +4,7 @@ package lgztec.tecdaily;
 public class DbCardData {
 
     //app data
-    private static final String SERVER = "http://lgztec.freeiz.com/TecDaily/";
+    private static final String SERVER = "http://your-server-site-here/"; //enter your server url
     static final String SERVER_URL = SERVER+"sync.php";
     static final String IMAGE_URL = SERVER+"/Images/";
     static final String PAGE_URL = SERVER+"/Content/";
