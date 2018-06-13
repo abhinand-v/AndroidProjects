@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PM Student</string>
+
+    //textview
+    <string name="reg_text_register">ENTER DETAILS</string>
+    <string name="txt_alertBox_phone_msg1">YOU LAST LOGINED FROM</string>
+    <string name="txt_alertBox_phone_msg2">PLEASE USE THE SAME DEVICE TO LOGIN AGAIN</string>
+    <string name="txt_alertBox_terms1">* This application is aquired with a device lock feature. You can only login and register your project title from one device only. You must keep the same device for checking status.</string>
+    <string name="txt_alertBox_terms2">*Your Device ID  and connection is recorded any malicious can make yor project banned</string>
+
+
+    //edit_text_hint
+    <string name="reg_box_mem_1">Member Names</string>
+    <string name="reg_box_proj_title">Project Title</string>
+    <string name="hint_idNo">IDNo</string>
+
+
+    //buttons
+    <string name="button_reg_submit">SUBMIT</string>
+    <string name="button_reg_init">submit project</string>
+    <string name="button_status">check status</string>
+    <string name="button_alertBox">I AGREE</string>
+    <string name="button_refresh">refresh</string>
+    <string name="button_login">LOGIN</string>
+
+
+    //demo_text
+    <string name="demo_text_status">NO RESULT REFRESH!</string>
+    <string name="demo_text_warning">this is alert</string>
+    <string name="demo_device_name">BRAND_DEVICE_NAME</string>
+    <string name="reg_box_proj_lang">Language used</string>
+
+    //spinner
+    <string-array name="group_id">
+        <item></item>
+    </string-array>
+
+</resources>

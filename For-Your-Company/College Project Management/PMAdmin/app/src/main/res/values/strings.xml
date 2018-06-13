@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PM Admin</string>
+
+    //textView
+    <string name="txt_card_gno">Group No : 1</string>
+    <string name="text_card_status">Status</string>
+
+
+    //demo
+
+    <string name="demo_card_title">THIS_IS_PROJECT</string>
+    <string name="demo_card_mem1">member 1</string>
+    <string name="demo_card_mem2">Member 2</string>
+    <string name="demo_card_proLang">C,C++</string>
+    <string name="txt_nodata">NO DATA</string>
+    <string name="group_no_txt">Group no :</string>
+    <string name="hint_enterPin">PIN</string>
+    <string name="button_login">LOGIN</string>
+    <string name="txt_grpNo">Group No :</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_language_used">Language used</string>
+    <string name="hint_members">Members</string>
+    <string name="txt_status">Status :</string>
+    <string name="button_update">UPDATE</string>
+    <string name="button_delete">DELETE</string>
+
+    <string name="hint_news_search">Search titles</string>
+    <string name="actionbar_search">Search</string>
+
+    <string-array name="spn_staus">
+        <item>PENDING</item>
+        <item>APPROVED</item>
+        <item>CONTACT ME</item>
+    </string-array>
+
+
+</resources>
